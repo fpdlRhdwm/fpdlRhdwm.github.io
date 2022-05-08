@@ -1,31 +1,29 @@
-# jekyll
-.jekyll-metadata
-_site
-.sass-cache
-.jekyll-cache
+# Vim
+*~
+*.sw[p_]
 
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
 
-# bundler
+# Ruby Gem
 *.gem
+.bundle
 Gemfile.lock
+**/vendor/bundle
 
-
-# python
-*.whl
-
-
-# npm
+# Node.js and NPM
 node_modules
+npm-debug.log*
 package-lock.json
+codekit-config.json
 
+# macOS
+.DS_Store
 
-# _sass
-_sass/@primer/css/**/*.md
-
-
-# lighthouse
-*.report.html
-
-
-# action
-action.changelog.md
+# Jekyll generated files
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
