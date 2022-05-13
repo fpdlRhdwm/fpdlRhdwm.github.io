@@ -71,7 +71,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "17ywhGie3juIEuFRqHCSYqrux6r31xo6oQ3cWCKMXn0"
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -286,9 +286,9 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
-      
+
   # _pages
   - scope:
       path: ""
@@ -299,4 +299,4 @@ defaults:
       read_time: false
       comments: false
       share: false
-      related: false  
+      related: false
